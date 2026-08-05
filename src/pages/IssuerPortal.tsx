@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { useMultiWallet, WalletType } from '../hooks/useMultiWallet';
+import { useMultiWallet } from '../hooks/useMultiWallet';
+import type { WalletType } from '../hooks/useMultiWallet';
 import { WalletModal } from '../components/WalletModal';
 import { BalanceWidget } from '../components/BalanceWidget';
 import { issueCredential } from '../lib/contracts';

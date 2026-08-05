@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import { useMultiWallet, WalletType } from '../hooks/useMultiWallet';
+import { useState } from 'react';
+import { useMultiWallet } from '../hooks/useMultiWallet';
+import type { WalletType } from '../hooks/useMultiWallet';
 import { WalletModal } from '../components/WalletModal';
 import { useNavigate } from 'react-router-dom';
 
@@ -214,9 +215,7 @@ export function LandingPage() {
 </div>
 </footer>
 
-</footer>
-
-      <WalletModal 
+      <WalletModal
         isOpen={isModalOpen} 
         onClose={() => setIsModalOpen(false)} 
         onSelectWallet={async (wallet: WalletType) => {

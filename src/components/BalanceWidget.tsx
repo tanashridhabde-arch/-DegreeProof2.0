@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { getXlmBalance } from '../lib/stellar';
 import { formatBalance } from '../utils/validation';
 

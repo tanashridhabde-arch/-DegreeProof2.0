@@ -1,0 +1,1 @@
+C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\target\wasm32v1-none\release\credential.wasm: C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\credential\src\lib.rs C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\credential\src\test.rs

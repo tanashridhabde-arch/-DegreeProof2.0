@@ -1,0 +1,1 @@
+C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\target\wasm32v1-none\release\registry.wasm: C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\registry\src\lib.rs C:\Users\Shritesh\OneDrive\Desktop\T-3,4\contracts\registry\src\test.rs

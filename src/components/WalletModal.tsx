@@ -1,5 +1,4 @@
-import React from 'react';
-import { WalletType } from '../hooks/useMultiWallet';
+import type { WalletType } from '../hooks/useMultiWallet';
 
 interface WalletModalProps {
   isOpen: boolean;
